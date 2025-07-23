@@ -1,13 +1,16 @@
 # JSL02 Project Brief: Task Input and Status Validation System
 
-## Important Prerequisite
+## 📋 Project Description
 
-1. Before starting this challenge, ensure that you have **corrected your JSL01 project (HTML and CSS)** using the solution provided. This will help maintain consistency and ensure you build on a solid foundation.
-2. **Check the project user stories in your student dashboard**, make sure you understand what is required for each feature.
+This project is a simple yet powerful task input and validation system built with JavaScript. It allows users to enter and manage two tasks interactively through browser prompts. The system focuses on real-time user feedback, ensuring input is correctly formatted and validated, while reinforcing essential programming skills like conditionals, loops, and data handling.
 
-## Overview
+Designed as a foundational JavaScript challenge, this project encourages clean logic, user-friendly interaction, and readable code, forming a solid base for more complex interactive applications in the future.
 
-This project involves implementing a JavaScript-based task entry system where users can input two tasks with complete details, ensuring data consistency and validation. The system will guide users through entering valid task titles, descriptions, and statuses, enforcing correct formatting while maintaining code clarity and maintainability.
+## 🛠️ Technologies Used
+
+    •	HTML5 – base structure inherited from JSL01
+    •	CSS3 – styling from JSL01 carried over for visual consistency
+    •	JavaScript – for dynamic user interaction and validation logic
 
 ## Key Objectives
 
