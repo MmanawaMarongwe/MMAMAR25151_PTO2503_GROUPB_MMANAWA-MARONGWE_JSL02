@@ -15,13 +15,6 @@ while (
   taskStatus1 = prompt("Enter task 1 status").toLowerCase();
 }
 
-// If task is marked as "done", log its title and status; otherwise, encourage the user to get started or keep going
-if (taskStatus1 === "done") {
-  console.log(`Title:"${taskTitle1}", Status: "${taskStatus1}"`);
-} else {
-  console.log("No tasks completed, let's get to work!");
-}
-
 // Prompt for Task 2
 let taskTitle2 = prompt("Enter task 2 title");
 let taskDescription2 = prompt("Enter task 2 description");
@@ -40,8 +33,15 @@ while (
 }
 
 // If task is marked as "done", log its title and status; otherwise, encourage the user to get started or keep going
+
+if (taskStatus1 === "done") {
+  console.log(`Title: "${taskTitle1}", status: "${taskStatus1}"`);
+}
+
 if (taskStatus2 === "done") {
   console.log(`Title: "${taskTitle2}", status: "${taskStatus2}"`);
-} else {
+}
+
+if (taskStatus1 !== "done" && taskStatus2 !== "done") {
   console.log("No tasks completed, let's get to work!");
 }
