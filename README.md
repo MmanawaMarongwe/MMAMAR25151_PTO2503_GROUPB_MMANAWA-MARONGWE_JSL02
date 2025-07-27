@@ -27,10 +27,16 @@ Designed as a foundational JavaScript challenge, this project encourages clean l
   > "No tasks completed, let's get to work!"
 - Includes descriptive variable names and comments for readability and maintainability
 
-## Code Quality & Maintainability
+## 🛠️ Setup Instructions
 
-- Use descriptive variable names to enhance readability and maintainability.
-- Include clear comments explaining complex logic and functionality for easier understanding.
+1. Open the `index.html` file in your browser.
+2. Ensure the `script.js` file is linked correctly using the `<script>` tag with the `defer` attribute.
+3. Open the browser console (Right click → Inspect → Console) to view task output messages.
+
+## 📈 Code Quality & Maintainability
+
+- Uses descriptive variable names to enhance readability and maintainability.
+- Includes clear comments explaining complex logic and functionality for easier understanding.
 
 ## Expected Outcome
 
@@ -38,7 +44,7 @@ A functional task entry system that ensures accurate data collection, validation
 
 **Prompt Input Example**
 
-- The program must prompt users for task 1 title, descrition and status inputs, it must do the same for task 2 information
+- The program must prompt users for task 1 title, description and status inputs, it must do the same for task 2 information
 
   ![title prompt](./explainer-images/title%20prompt.png)
 
